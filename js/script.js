@@ -8,18 +8,21 @@ const yearMinor=18
 const yearOlder=65
 const ticket= 0.21
 
-
+let price = travelRequest * 0.21;
 
 if(ageRequest<yearMinor){
-    console.log(16.80)
+    
+    
 }
 
 else if(ageRequest>yearOlder){
-    console.log(12.60)
+   
 }
 
 else{
 
 }
+
+console.log("Prezzo finale: € " + price.toFixed(2));
 
 
