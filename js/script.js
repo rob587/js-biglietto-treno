@@ -11,12 +11,12 @@ const ticket= 0.21
 let price = travelRequest * 0.21;
 
 if(ageRequest<yearMinor){
-    
+    price= price*0.8
     
 }
 
 else if(ageRequest>yearOlder){
-   
+    price= price*0.6
 }
 
 else{
