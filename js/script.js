@@ -19,9 +19,7 @@ else if(ageRequest>yearOlder){
     price= price*0.6
 }
 
-else{
 
-}
 
 console.log("Prezzo finale: € " + price.toFixed(2));
 
